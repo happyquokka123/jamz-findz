@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/jamz-findz/static/css/main.073c9b0a.css",
-    "main.js": "/jamz-findz/static/js/main.7ca507a2.js",
-    "static/media/logo.svg": "/jamz-findz/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/jamz-findz/static/css/main.781bdfc0.css",
+    "main.js": "/jamz-findz/static/js/main.f0f6ac82.js",
+    "static/media/jamz-logo-color.svg": "/jamz-findz/static/media/jamz-logo-color.14358a353735185b30aeb031cfdc60e8.svg",
+    "static/media/jamz-logo.svg": "/jamz-findz/static/media/jamz-logo.51b861b5c9990e8b787700ad95f63a24.svg",
     "index.html": "/jamz-findz/index.html",
-    "main.073c9b0a.css.map": "/jamz-findz/static/css/main.073c9b0a.css.map",
-    "main.7ca507a2.js.map": "/jamz-findz/static/js/main.7ca507a2.js.map"
+    "main.781bdfc0.css.map": "/jamz-findz/static/css/main.781bdfc0.css.map",
+    "main.f0f6ac82.js.map": "/jamz-findz/static/js/main.f0f6ac82.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.7ca507a2.js"
+    "static/css/main.781bdfc0.css",
+    "static/js/main.f0f6ac82.js"
   ]
 }
