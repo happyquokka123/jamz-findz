@@ -1,38 +1,77 @@
 .App {
+  /* background-color: rgb(193, 212, 243); */
+  display: flex;
+  font-family: Inter,Avenir,Helvetica,Arial,sans-serif;
+  padding: 40px 20px;
+  color: rgb(74, 104, 134);
+  min-height: 100vh;
+}
+
+.App {
+  background: #c2e59c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);
+  background: linear-gradient(to right, #64b3f4, #c2e59c);
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  height: 3.5rem;
+  margin-right: 1rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.logo-title {
+  margin-left: 1rem;
+}
+
+.page {
+  display: flex;
+  flex-direction: row;
+  padding: 50px 0px;
+}
+
+.title,
+.intro {
+  color: rgb(255, 255, 255);
+  text-align: left;
+}
+
+.albums-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  row-gap: 50px;
+  column-gap: 20px;
+}
+
+.cart-container {
+  padding: 0 20px;
+}
+
+.cart {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  background-color: rgb(245, 224, 231);
+  border-radius: 30px;
+  padding: 40px;
+  width: 18vw;
 }
